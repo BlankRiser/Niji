@@ -1,0 +1,88 @@
+{
+  // THEME
+  "workbench.colorTheme": "Catppuccin Mocha",
+  // GIT
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+
+  // MAXIMIZING EDITOR LAYOUT
+  // Remove left-side icons
+  //   "workbench.activityBar.location": "hidden",
+  // Remove bottom status bar
+  //   "workbench.statusBar.visible": false,
+  // Remove position indicator in the editor's scrollbar
+  "editor.hideCursorInOverviewRuler": true,
+  // Remove minimap
+  "editor.minimap.enabled": false,
+  // Remove the line number gutter
+  // "editor.glyphMargin": false,
+  // Remove code-block folding icon
+  // "editor.folding": false,
+
+  // EDITOR
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.fontFamily": "DankMono-Regular",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.renderWhitespace": "selection",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.addMissingImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "terminal.integrated.fontFamily": "'Fira Code'",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+  // LANGUAGE SPECIFIC
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+  "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+  "workbench.productIconTheme": "icons-carbon",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "typescriptreact": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "console-ninja.featureSet": "Community",
+  "editor.fontSize": 14,
+  "terminal.integrated.env.osx": {},
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.graph.minimap.dataType": "lines",
+  "gitlens.graph.minimap.additionalTypes": ["remoteBranches"],
+  "window.zoomLevel": 1,
+
+  "workbench.layoutControl.enabled": false,
+
+  "github.copilot.editor.enableAutoCompletions": true
+}
