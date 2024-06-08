@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Niji for Tailwind
+
+Welcome to the **Niji Design System**! "Niji," meaning "Rainbow" in Japanese, symbolizes the vibrant and diverse range of UI components and styles that this system offers. This design system leverages a combination of CSS libraries and accessibility tools to create inclusive and beautiful user interfaces.
+
+Just as a rainbow encompasses a spectrum of colors, Niji integrates multiple tools and libraries to cover a broad range of design and accessibility needs. Each tool in Niji's ecosystem adds a unique hue, contributing to a holistic, inclusive, and versatile design system.
+
+Explore the Niji Design System and start building your next accessible and visually appealing project today!
 
 ## Getting Started
 
-First, run the development server:
+To get started with Niji, follow the steps below:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+bun install
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Goals
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Niji Design System aims to provide a comprehensive set of UI components and styles that are accessible, inclusive, and visually appealing. The system is designed to be easy to use and customize, allowing developers to create beautiful and functional user interfaces quickly and efficiently. Be it on mobile, desktop, or web, Niji will be built to adapt to various screen sizes and devices, ensuring a consistent and seamless user experience across platforms.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+My goal is to build components using various CSS libraries and accessibility tools, these are some of the libraries/combinations I am considering:
 
-## Learn More
+- [] [Tailwind CSS](https://tailwindcss.com/) with [Radix Primitives](https://www.radix-ui.com/primitives)
+- [] [Tailwind CSS](https://tailwindcss.com/) with [Aria Kit](https://ariakit.org/)
+- [] [Tailwind CSS](https://tailwindcss.com/) with [Headless UI](https://headlessui.com/)
 
-To learn more about Next.js, take a look at the following resources:
+For the future, I am considering building components for React Native using the following libraries:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [] [unistyles](https://reactnativeunistyles.vercel.app/)
+- [] [Tamagui](https://tamagui.dev/)
+- [] [Nativewind](https://www.nativewind.dev/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Inspiration
 
-## Deploy on Vercel
+Niji is inspired by a variety of component libraries, including:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [buttons.ibelick](https://buttons.ibelick.com/)
+- [shadcn](https://ui.shadcn.com/)
+- [aceternity](https://ui.aceternity.com/)
+- [magicui](https://magicui.design/)

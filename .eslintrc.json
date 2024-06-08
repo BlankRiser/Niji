@@ -3,5 +3,8 @@
     "next/core-web-vitals",
     "plugin:tailwindcss/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "tailwindcss/classnames-order": "off" // prettier already takes care of this
+  }
 }
